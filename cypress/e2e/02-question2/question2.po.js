@@ -32,11 +32,8 @@ class Q2 {
     navigateTocheckout() {
         // Navigate to the cart
         cy.get('.shopping_cart_link').should('be.visible').click();
-        // Verify the cart page
         cy.get('.cart_list').should('be.visible');
-        // Click on the checkout button
         cy.get('#checkout').should('be.visible').click();
-        // Verify the checkout page
         cy.get('.checkout_info').should('be.visible');
         // Fill in the checkout form
         cy.get('#first-name').should('be.visible').type(data.firstName);
