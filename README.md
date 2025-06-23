@@ -31,5 +31,3 @@
 3. PageObjects [For Page Object Model]
 4. Support >> Commands.js [For Base Settings]
 5. cypress.conf.js [For Test Run Related Configuration]
-6. npx cypress run --e2e --headed --reporter mochawesome [Run with generate Mocha reports]
-7. cypress/test-report/*.json > cypress/test-report/output.json
