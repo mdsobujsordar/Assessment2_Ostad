@@ -8,9 +8,6 @@
       "username": "standard_user"
     },
     {
-      "username": "problem_user"
-    },
-    {
       "username": "performance_glitch_user"
     }
   ],
@@ -18,8 +15,26 @@
   "firstName": "Sobuj",
   "lastName": "Sordar",
   "postalCode": "123456",
-  "itemName": "Sauce Labs Backpack",
-  "itemPrice": "$29.99",
-  "itemDescription": "Sauce Labs Backpack is a stylish and functional backpack designed for everyday",
-  "totalPrice": "$60.45"
+  "products": [
+    {
+      "name": "Sauce Labs Backpack",
+      "price": "$29.99"
+    },
+    {
+      "name": "Sauce Labs Bike Light",
+      "price": "$9.99"
+    },
+    {
+      "name": "Sauce Labs Bolt T-Shirt",
+      "price": "$15.99"
+    },
+    {
+      "name": "Sauce Labs Fleece Jacket",
+      "price": "$49.99"
+    }
+  ],
+  "totalPrice": "$60.45",
+
+  "ZtoAfirstProduct": "Test.allTheThings() T-Shirt (Red)",
+  "ZtoAfirstProductPrice": "17.27"
 }

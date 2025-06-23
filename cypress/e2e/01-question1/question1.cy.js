@@ -1,5 +1,4 @@
 import Q1 from "./question1.po"
-const data = require('/cypress/fixtures/data.json');
 describe('Solution of Question1', function(){
     const action = new Q1();
     beforeEach(() => {

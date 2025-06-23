@@ -46,6 +46,13 @@ class Q2 {
         cy.get('#continue').should('be.visible').click();
         // Verify the checkout overview page
         cy.get('.checkout_summary_container').should('be.visible');
+
+        // verify the item names in the checkout overview
+        cy.get('.inventory_item_name').should('have.length', 3);
+        cy.get('.inventory_item_name').eq(0).should('contain.text', data.products[0].name);
+        cy.get('.inventory_item_name').eq(1).should('contain.text', data.products[1].name);
+        cy.get('.inventory_item_name').eq(2).should('contain.text', data.products[2].name);
+
         //verify the total price of the items
         cy.get('[data-test="total-label"]').should('be.visible').should('contain.text', data.totalPrice);
         // Click on the finish button

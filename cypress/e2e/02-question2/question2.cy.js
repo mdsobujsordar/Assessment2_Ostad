@@ -1,5 +1,4 @@
 import Q2 from "./question2.po"
-const data = require('/cypress/fixtures/data.json');
 describe('Solution of Question2', function(){
     const action = new Q2();
     beforeEach(() => {
@@ -7,7 +6,7 @@ describe('Solution of Question2', function(){
         cy.clearCookies();
         cy.clearLocalStorage();
     })
-    it('It will login with standard_user and reset app state', function(){
+    it('It will buy 3 products with standard_user credential', function(){
         action.baseURL();
         action.login();
         action.addToCart();
