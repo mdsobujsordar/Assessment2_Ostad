@@ -1,0 +1,9 @@
+{
+  "URL" : "https://www.saucedemo.com/",
+  "users": [
+    {
+      "username": "locked_out_user"
+    }
+  ],
+  "password": "secret_sauce"
+}

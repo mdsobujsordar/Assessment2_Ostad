@@ -17,11 +17,9 @@
     "url": "https://github.com/mdsobujsordar/Assessment2_Ostad/issues"
   },
   "homepage": "https://github.com/mdsobujsordar/Assessment2_Ostad#readme",
-  "dependencies": {
-    "cypress": "^14.5.0"
-  },
   "devDependencies": {
     "@shelex/cypress-allure-plugin": "^2.41.2",
-    "allure-commandline": "^2.34.0"
+    "allure-commandline": "^2.34.0",
+    "cypress": "^14.5.0"
   }
 }

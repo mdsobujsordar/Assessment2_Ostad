@@ -1,0 +1,20 @@
+# Node
+node_modules/
+package-lock.json
+npm-debug.log*
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+cypress/results/
+
+# Allure
+allure-results/
+allure-report/
+
+# MacOS
+.DS_Store
+
+# VSCode
+.vscode/
