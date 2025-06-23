@@ -3,7 +3,23 @@
   "users": [
     {
       "username": "locked_out_user"
+    },
+    {
+      "username": "standard_user"
+    },
+    {
+      "username": "problem_user"
+    },
+    {
+      "username": "performance_glitch_user"
     }
   ],
-  "password": "secret_sauce"
+  "password": "secret_sauce",
+  "firstName": "Sobuj",
+  "lastName": "Sordar",
+  "postalCode": "123456",
+  "itemName": "Sauce Labs Backpack",
+  "itemPrice": "$29.99",
+  "itemDescription": "Sauce Labs Backpack is a stylish and functional backpack designed for everyday",
+  "totalPrice": "$60.45"
 }
